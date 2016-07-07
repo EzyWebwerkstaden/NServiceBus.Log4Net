@@ -33,6 +33,6 @@ class LoggingConfig
         };
         appender.ActivateOptions();
 
-        BasicConfigurator.Configure(appender, consoleAppender);
+        BasicConfigurator.Configure(consoleAppender);
     }
 }
